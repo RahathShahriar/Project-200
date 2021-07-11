@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-color: #fff;
+    font-family: sans-serif;
+
+}
+.logo
+{
+    color: rgb(60, 41, 63);
+    font-weight: 600;
+    font-size: 200%;
+    font-style: initial;
+    font-variant: small-caps;
+    font-family: fantasy;
+    font-display: none;
+    display: inline;
+    padding: 0 350px;
+    line-height:140px;
+    
+    
+}
+
+.top-nav-bar
+{
+    height: 140px;
+    top: 0;
+    position: sticky;
+    background: rgb(206, 204, 202);
+    margin-bottom: 0;
+}
+
+.search-box
+{
+    width:15%;
+    float: left;
+}
+
+.input-search
+{
+    margin-top: 70px;
+    margin-left: 50px;
+    display: inline-flex;
+    border-bottom: 1px solid black;
+}
+
+
+.input-search input
+{
+    float: left;
+    padding: 1px;
+    box-shadow: none;
+    outline: none;
+    border: 0;
+    background: transparent;
+}
+.search-icon .fa
+{
+    color: black;
+}
+
+
+#menu
+{
+   
+    margin: 0px;
+    padding-left: 50px;
+    width: 1356px;
+    background: rgb(117, 102, 102);
+    list-style-type: none;
+    min-height: 40px;
+}
+#menu li
+{
+    float: left;
+    
+    position: relative;
+
+}
+
+#menu li a
+{
+    background: rgb(117, 102, 102);
+    padding: 10px 50px;
+    color: #fff;
+    text-decoration: none; 
+    display: block;
+    transition: 0.5s all ease-out;
+    
+   
+}
+#menu li a:hover
+{
+    background: rgb(66, 50, 75);
+}
+#menu li ul
+{
+    list-style-type: none;
+    padding: 0;
+    position: absolute;
+    left: -9999px;
+
+}
+
+#menu li:hover ul
+{
+    left:0px;
+
+}
+
+#menu li ul li
+{
+    float: none;
+    border-left: none;
+    border-right: none;
+    width: 200px;
+    border-top: 1px solid rgb(22, 21, 26) ;
+    border-bottom: 1px solid rgb(56, 53, 65) ;
+    position: relative;
+    transition: 0.5s all ease-in-out;
+}
+
+
+#menu li ul li ul
+{
+    position: absolute;
+    top: -999999px;
+}
+
+
+#menu li ul li:hover ul
+{
+    top:0;
+    left: 200px;
+}
+
+
+#menu1
+{
+    list-style-type: none;
+}
+#menu1 li
+{
+    float: left;
+    border-left: none ;
+    border-right: none ;
+    border-bottom: none;
+    border-top: none;
+    left: 40px;
+    
+}
+
+
+
+
+#menu1 li:last-child
+{
+    border-right: none;
+}
+#menu1 li:first-child
+{
+    border-left: none
+}
+    
+#menu1 li a
+{
+    background: none
+    
+}
+.Sale
+{
+    color: rgb(41, 2, 2);
+}
